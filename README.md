@@ -4,7 +4,7 @@
 
 This Gem generates Rails command strings based on a Rails database schema you already have. Unlike traditional migrations, which modify the database as they generate Rails scaffolding code, this Gem reads the schema for your database and generates the Rails code which matches your database's existing columns.
 
-This Gem does not modify anything; it simply prints a string which you can then use to invoke the Rails generators, and optionally copies the string to your clipboard. Generated string commands available are:
+Test. This Gem does not modify anything; it simply prints a string which you can then use to invoke the Rails generators, and optionally copies the string to your clipboard. Generated string commands available are:
 ```bash
 rails generate scaffold <model_name> <field[:type]>
 rails generate factory_girl:model <ModelName> <field[:type]>
